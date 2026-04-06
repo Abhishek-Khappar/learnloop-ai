@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Builds
+frontend/build/
+backend/dist/
+
+# Env & secrets (never commit real keys)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Logs & OS
+npm-debug.log*
+.DS_Store
+Thumbs.db
